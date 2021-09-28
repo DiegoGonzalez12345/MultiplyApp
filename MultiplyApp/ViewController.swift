@@ -54,6 +54,7 @@ class ViewController: UIViewController
     @IBOutlet weak var textBox1: UITextField!
     @IBOutlet weak var textBox2: UITextField!
     @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var imageMario: UIImageView!
     
     
     override func viewDidLoad()
@@ -95,6 +96,16 @@ class ViewController: UIViewController
         var product=integerNumber1*integerNumber2
         var product1 = String(product)
         myLabel.text = product1
+        if product==64
+        {
+            imageMario.image = UIImage(named:"mario64")
+            
+            
+            
+            
+            
+            
+        }
         
        
         
