@@ -40,21 +40,17 @@ import UIKit
 
 
 
-
-
-
-
-
-
-
-
 class ViewController: UIViewController
 {
     //Variable Declaration
     @IBOutlet weak var textBox1: UITextField!
     @IBOutlet weak var textBox2: UITextField!
     @IBOutlet weak var myLabel: UILabel!
-    @IBOutlet weak var imageMario: UIImageView!
+    @IBOutlet weak var imageMario:
+        
+        
+        UIImageView!
+
     
     
     override func viewDidLoad()
@@ -99,17 +95,16 @@ class ViewController: UIViewController
         if product==64
         {
             imageMario.image = UIImage(named:"mario64")
-            
-            
-            
-            
-            
+        
             
         }
         
        
         
     }
+   
+    
+    
     
     
     
